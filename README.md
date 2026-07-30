@@ -189,10 +189,15 @@ Information captured includes:
 ## 🚀 Future Enhancements
 
 • Apache Airflow orchestration
+
 • Informatica Cloud integration
+
 • Snowflake Tasks
+
 • Snowflake Streams
+
 • External Stage (AWS S3)
+
 • CDC implementation
 
 ---
