@@ -145,10 +145,10 @@ This file demonstrates the initial population of the CURATED customer table from
 The pipeline uses the Snowflake `MERGE` statement to support incremental loading.
 
 Sample outputs include:
-- curated_customers_after_merge.csv
-- curated_products_after_merge.csv
-- curated_orders_after_merge.csv
-- curated_payments_after_merge.csv
+- `curated_customers_after_merge.csv`
+- `curated_products_after_merge.csv`
+- `curated_orders_after_merge.csv`
+- `curated_payments_after_merge.csv`
 
 These outputs demonstrate:
 - Insertion of new records
@@ -156,15 +156,15 @@ These outputs demonstrate:
 - Prevention of duplicate records based on business keys
 
 ### Reject Records
-- customers_reject.csv
-- products_reject.csv
-- orders_reject.csv
-- payments_reject.csv
+- `customers_reject.csv`
+- `products_reject.csv`
+- `orders_reject.csv`
+- `payments_reject.csv`
 
 ### Audit Log
 The audit log captures ETL execution details, including load status and timestamps.
 
-- audit_log.csv
+- `audit_log.csv`
 
 ---
 
@@ -188,13 +188,13 @@ Information captured includes:
 
 ## 🚀 Future Enhancements
 
-
 • Apache Airflow orchestration
 • Informatica Cloud integration
 • Snowflake Tasks
 • Snowflake Streams
 • External Stage (AWS S3)
 • CDC implementation
+
 ---
 
 ## 👩‍💻 Author
