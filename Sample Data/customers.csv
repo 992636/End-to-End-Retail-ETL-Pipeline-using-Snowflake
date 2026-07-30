@@ -1,0 +1,11 @@
+CUSTOMER_ID,FIRST_NAME,LAST_NAME,EMAIL,CONTACT_NO,DOB,ADDRESS,CITY,STATE,COUNTRY,REGISTRATION_DATE,LAST_UPDATED
+101,Amit,Sharma,amit@gmail.com,9876543210,4/10/1995,Vijay Nagar,Indore,MP,India,1/10/2025,7/21/2026 9:00
+102,Priya,Patel,priya@gmail.com,9988776655,8/12/1994,MG Road,Bhopal,MP,India,2/15/2025,7/21/2026 9:00
+,Rahul,Verma,rahul@gmail.com,9999999999,5/10/1990,Pune Camp,Pune,MH,India,3/1/2025,7/21/2026 9:00
+104,Sneha,Joshi,sneha@gmail.com,8888888888,10/15/1998,Civil Lines,Nagpur,MH,India,4/12/2025,7/21/2026 9:00
+104,Sneha,Joshi,sneha@gmail.com,8888888888,10/15/1998,Civil Lines,Nagpur,MH,India,4/12/2025,7/21/2026 9:00
+106,Ravi,Singh,ravi@gmail,9876501234,6/25/1993,Lake View,Bhopal,MP,India,5/5/2025,7/21/2026 9:00
+107,Anjali,Gupta,anjali@gmail.com,,9/18/1997,Sector 21,Chandigarh,CH,India,6/8/2025,7/21/2026 9:00
+108,Mohan,Das,mohan@gmail.com,9876543211,1/1/2028,Station Road,Jaipur,RJ,India,7/10/2025,7/21/2026 9:00
+109,Neha,Jain,neha@gmail.com,9876543222,2/20/1996,Residency,Indore,MP,India,7/12/2025,7/21/2026 9:00
+110,Karan,Mehta,karan@gmail.com,9876543233,12/5/1992,Airport Road,Ahmedabad,GJ,India,7/15/2025,7/21/2026 9:00
