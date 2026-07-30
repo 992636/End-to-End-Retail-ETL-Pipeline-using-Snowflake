@@ -153,7 +153,6 @@ Information captured includes:
 
 ## 🚀 Future Enhancements
 
-- Complete MERGE implementation for Products, Orders, and Payments
 - Automate orchestration using Informatica Cloud or Apache Airflow
 - Email notification on pipeline success/failure
 - SCD Type 2 implementation for dimension tables
