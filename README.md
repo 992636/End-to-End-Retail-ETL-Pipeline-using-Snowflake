@@ -153,10 +153,13 @@ Information captured includes:
 
 ## 🚀 Future Enhancements
 
-- Automate orchestration using Informatica Cloud or Apache Airflow
-- Email notification on pipeline success/failure
-- SCD Type 2 implementation for dimension tables
 
+• Apache Airflow orchestration
+• Informatica Cloud integration
+• Snowflake Tasks
+• Snowflake Streams
+• External Stage (AWS S3)
+• CDC implementation
 ---
 
 ## 👩‍💻 Author
