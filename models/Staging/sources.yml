@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: retail
+    database: DBT_LEARN
+    schema: DEV
+    tables:
+      - name: customers_stg
+      - name: products_stg
+      - name: orders_stg
+      - name: payments_stg
