@@ -1,3 +1,10 @@
+{{
+    config(
+        materialized='incremental',
+        unique_key='order_id'
+    )
+}}
+
 select
     order_id,
     customer_id,
@@ -12,6 +19,10 @@ from {{ source('retail', 'orders_stg') }}
 
 where order_id is not null
   and customer_id is not null
+
+{% if is_incremental() %}
+  and last_updated > (select max(last_updated) from {{ this }})
+{% endif %}
 
 qualify row_number() over (
     partition by order_id
