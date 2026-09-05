@@ -49,3 +49,11 @@ models:
                 field: order_id
               config:
                 severity: warn
+  - name: fct_orders
+    columns:
+      - name: total_amount
+        tests:
+          - positive_value:
+              config:
+                severity: warn
+  

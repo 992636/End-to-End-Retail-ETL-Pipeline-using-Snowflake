@@ -1,4 +1,5 @@
 select
+{{ dbt_utils.generate_surrogate_key(['o.order_id', 'pay.payment_id']) }} as fct_orders_id,
     o.order_id,
     o.order_date,
     o.order_status,
@@ -22,11 +23,7 @@ select
     pay.payment_status,
     pay.amount as payment_amount,
 
-    case
-        when pay.payment_status = 'SUCCESS' then 'ACCEPTED'
-        when pay.payment_status is null then 'NO_PAYMENT_FOUND'
-        else 'REJECTED'
-    end as payment_review_flag
+    {{ payment_status_flag('pay.payment_status') }} as payment_review_flag
 
 from {{ ref('stg_orders') }} o
 left join {{ ref('stg_customers') }} c
